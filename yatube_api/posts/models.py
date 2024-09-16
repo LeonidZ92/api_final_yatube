@@ -31,11 +31,11 @@ class Post(models.Model):
         blank=True
     )
 
-    def __str__(self):
-        return self.text[:MAX_LENGHT]
-
     class Meta:
         ordering = ['-pub_date']
+
+    def __str__(self):
+        return self.text[:MAX_LENGHT]
 
 
 class Comment(models.Model):

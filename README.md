@@ -11,18 +11,17 @@
 - Подписки. Пользователи могут подписываться на других пользователей. 
 
 ## Стек использованных технологий
-- colorama==0.4.6
-- Django==5.1.1
-- djoser==2.2.3
-- pytest==6.2.4
-- pytest-pythonpath==0.7.3
-- pytest-django==4.4.0
-- djangorestframework==3.15.2
-- djangorestframework-simplejwt==5.3.1
-- pillow==10.4.0
-- PyJWT==2.9.0
-- requests==2.26.0
-- drf-nested-routers==0.94.1
+
+Django==4.2.16 
+pytest==6.2.4 
+pytest-pythonpath==0.7.3 
+pytest-django==4.4.0 
+djangorestframework==3.14.0
+djangorestframework-simplejwt==4.7.2 
+Pillow==10.4.0 
+PyJWT==2.1.0 
+requests==2.26.0 
+drf-nested-routers==0.94.1
 
 ## Установка 
 
